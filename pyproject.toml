@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quickllm"
+version = "0.3.1"
+description = "A small, friendly wrapper around OpenAI, Anthropic and OpenRouter chat APIs."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.28"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pytest-cov>=4"]
+
+[project.scripts]
+quickllm = "quickllm.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["quickllm*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=quickllm --cov-report=term-missing"
