@@ -1,4 +1,4 @@
-# quickllm
+# quickllm (DEMO FOR HARVARD HACKS)
 
 A small wrapper around the OpenAI, Anthropic and OpenRouter chat APIs with one
 interface, a response cache, conversation memory, batch helpers, cost tracking
