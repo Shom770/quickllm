@@ -14,6 +14,20 @@
    "sites": [],
    "estimate": true,
    "assumption": "each route or job runs 1,000 times a month"
+  },
+  {
+   "type": "scan",
+   "at": "2026-10-18T07:33:37Z",
+   "spend_usd": 0,
+   "kwh": [
+    0,
+    0
+   ],
+   "avoidable_usd": 0,
+   "calls": 0,
+   "sites": [],
+   "estimate": true,
+   "assumption": "each route or job runs 1,000 times a month"
   }
  ]
 }
